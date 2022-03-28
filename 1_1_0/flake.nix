@@ -11,7 +11,6 @@
   inputs.src-jsony-1_1_0.ref   = "refs/tags/1.1.0";
   inputs.src-jsony-1_1_0.owner = "treeform";
   inputs.src-jsony-1_1_0.repo  = "jsony";
-  inputs.src-jsony-1_1_0.dir   = "";
   inputs.src-jsony-1_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

@@ -11,7 +11,6 @@
   inputs.src-jsony-master.ref   = "refs/heads/master";
   inputs.src-jsony-master.owner = "treeform";
   inputs.src-jsony-master.repo  = "jsony";
-  inputs.src-jsony-master.dir   = "";
   inputs.src-jsony-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
